@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \r\n\ \r\n\ This\ class\ is\ in\ charge\ of\ creating\ items\ that\ are\ inside\ rooms.\r\n\ "Item"\ represents\ an\ object\ in\ the\ game\ that\ can\ be\ used\ on\ a\ specific\ enemy\ or\ door\ to\ unlock\ it\ and\ move\ forward.\r\n\ Items\ are\ added\ within\ the\ room\ class\ through\ an\ ArrayList<Item>\ so\ that\ a\ room\ can\ hold\ more\ than\ one\ item.\r\n\ \r\n\r\n\ @author\ (Natasha\ Pregetter)\r\n\ @version\ (31/08/2020)\r\n
+comment1.params=name\ description\ weight\ canBePickedUp
+comment1.target=Item(java.lang.String,\ java.lang.String,\ double,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Item\r\n
+comment2.params=
+comment2.target=java.lang.String\ getItemFullDescription()
+comment2.text=\r\n\ Gets\ an\ items\ description\ and\ its\ weight\r\n
+comment3.params=
+comment3.target=java.lang.String\ getItemDescription()
+comment3.text=\r\n\ Get\ an\ items\ description\ without\ its\ name\ or\ weight.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getItemsWeight()
+comment4.text=\r\n\ Get\ an\ items\ weight\r\n
+comment5.params=newWeight
+comment5.target=void\ changeItemWeight(double)
+comment5.text=\r\n\ changes\ the\ weight\ of\ an\ item\r\n
+comment6.params=
+comment6.target=boolean\ canBePickedUp()
+comment6.text=\r\n\ checks\ if\ an\ item\ can\ be\ picked\ up\r\n\ @return\ boolean\ of\ whether\ it\ can\ be\ picked\ up\ or\ not\r\n
+comment7.params=
+comment7.target=java.lang.String\ getItemName()
+comment7.text=\r\n\ Get\ an\ items\ name\r\n\ @return\ Item\ name\ as\ String\r\n
+numComments=8

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Inventory
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Inventory\ here.\r\n\r\n\ @author\ (Natasha\ Pregetter)\r\n\ @version\ (01/09/2020)\r\n
+comment1.params=carryWeight
+comment1.target=Inventory(double)
+comment1.text=\r\n\ Creates\ an\ object\ of\ type\ inventory\ that\ has\ specified\ amount\ of\ slots\ and\ a\ specific\ carry\ weight\ in\ double\ form.\r\n
+comment2.params=
+comment2.target=java.lang.String\ showInventory()
+comment2.text=\r\n\ This\ method\ returns\ the\ items\ inside\ of\ your\ inventory\ as\ a\ string\ description\r\n\ @return\ String\ of\ items\ in\ inventory\r\n
+comment3.params=item
+comment3.target=void\ addItemToInventory(Item)
+comment3.text=\r\n\ This\ method\ will\ add\ an\ item\ to\ the\ inventory\ and\ then\ print\ the\ new\ contents\ of\ the\ inventory\r\n
+comment4.params=item
+comment4.target=void\ removeItemFromInventory(Item)
+comment4.text=\r\n\ Remove\ an\ item\ from\ the\ inventory\ and\ print\ the\ new\ contents\ of\ the\ inventory\r\n
+comment5.params=weight
+comment5.target=void\ assignWeight(double)
+comment5.text=\r\n\ Assign\ a\ carry\ weight\ to\ an\ inventory\r\n
+comment6.params=item
+comment6.target=java.lang.String\ findItem(Item)
+comment6.text=\r\n\ Find\ item\ in\ the\ inventory\ and\ return\ its\ name,\ through\ iteration\ and\ returns\ null\ if\ no\ item\ with\ that\ name\ is\ found.\r\n\ @return\ name\ of\ item\ in\ inventory\ if\ found\r\n
+numComments=7

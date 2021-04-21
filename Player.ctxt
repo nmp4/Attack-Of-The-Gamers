@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Class\ Player\ \=\ a\ player\ character\ in\ the\ game.\r\n\ \r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\ \r\n\ This\ creates\ the\ player\ class\ and\ object\ that\ can\ then\ be\ used\ as\ the\ player\ interacts\ with\ the\ environment.\r\n\ A\ player\ object\ represents\ the\ users\ character\ in\ the\ game\ and\ all\ the\ info\ the\ user\ has\ put\ into\ said\ character.\r\n\ \r\n\r\n\ @author\ (Natasha\ Pregetter)\r\n\ @version\ (01/09/2020)\r\n
+comment1.params=name\ playerInventory\ currentRoom\ previousRoom
+comment1.target=Player(java.lang.String,\ Inventory,\ Room,\ Room)
+comment1.text=\r\n\ Creates\ a\ player\ object\ called\ "name",\ with\ an\ ArrayList\ called\ "inventory"\ that\ stores\ held\ items,\ and\ a\ max\r\n
+comment2.params=item
+comment2.target=void\ addToPlayerInventory(Item)
+comment2.text=\r\n\ Adds\ an\ item\ specifically\ to\ the\ players\ inventory\r\n
+comment3.params=item
+comment3.target=void\ removeFromPlayerInv(Item)
+comment3.text=\r\n\ Removes\ an\ item\ specifically\ from\ the\ players\ inventory\r\n
+comment4.params=room
+comment4.target=void\ setCurrentRoom(Room)
+comment4.text=\r\n\ Set\ the\ players\ current\ location\ i.e\ which\ room\ they\ are\ in\r\n
+comment5.params=room
+comment5.target=void\ setPreviousRoom(Room)
+comment5.text=\r\n\ Set\ previous\ room\ that\ the\ player\ was\ in\r\n
+comment6.params=
+comment6.target=Room\ getCurrentRoom()
+comment6.text=\r\n\ Get\ the\ current\ room\ that\ the\ player\ is\ in.\ \r\n\ @return\ the\ room\ the\ player\ is\ in\ i.e\ currentRoom\r\n
+comment7.params=
+comment7.target=Room\ getPreviousRoom()
+comment7.text=\r\n\ Get\ the\ previous\ room\ that\ the\ player\ was\ in.\r\n\ @return\ previousRoom\r\n
+numComments=8

@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=Room
+comment0.text=\r\n\ Class\ Room\ -\ a\ room\ in\ an\ adventure\ game.\r\n\r\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \r\n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \r\n\r\n\ A\ "Room"\ represents\ one\ location\ in\ the\ scenery\ of\ the\ game.\ \ It\ is\ \r\n\ connected\ to\ other\ rooms\ via\ exits.\ \ The\ exits\ are\ labelled\ north,\ \r\n\ east,\ south,\ west.\ \ For\ each\ direction,\ the\ room\ stores\ a\ reference\r\n\ to\ the\ neighboring\ room,\ or\ null\ if\ there\ is\ no\ exit\ in\ that\ direction.\r\n\ \r\n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ 2016.02.29\r\n
+comment1.params=description
+comment1.target=Room(java.lang.String)
+comment1.text=\r\n\ Create\ a\ room\ described\ "description".\ Initially,\ it\ has\r\n\ no\ exits.\ "description"\ is\ something\ like\ "a\ kitchen"\ or\r\n\ "an\ open\ court\ yard".\r\n\ @param\ description\ The\ room's\ description.\r\n
+comment2.params=direction\ neighbor
+comment2.target=void\ setExits(java.lang.String,\ Room)
+comment2.text=\r\n\ Define\ the\ exits\ of\ this\ room.\ \ Every\ direction\ either\ leads\r\n\ to\ another\ room\ or\ is\ null\ (no\ exit\ there).\r\n\ @param\ direction\ is\ the\ key\ and\ direction.\r\n\ @param\ neighbor\ is\ the\ room\ in\ a\ given\ direction.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getRoomDescription()
+comment3.text=\r\n\ @return\ The\ description\ of\ the\ room.\r\n
+comment4.params=direction
+comment4.target=Room\ getExit(java.lang.String)
+comment4.text=\r\n\ Return\ a\ description\ of\ this\ rooms\ exits\ eg;\ exits\ \=\ north,\ west\r\n\ @return\ \ A\ description\ of\ the\ available\ exits\r\n
+comment5.params=
+comment5.target=java.lang.String\ getExitString()
+comment5.text=\r\n\ Returns\ the\ description\ of\ a\ rooms\ exits,\ eg\:\ "Exits\:\ north,\ west"\r\n\ @return\ A\ description\ of\ the\ available\ exits.\r\n
+comment6.params=
+comment6.target=java.lang.String\ getLongDescription()
+comment6.text=\r\n\ Return\ a\ long\ description\ of\ this\ room,\ of\ the\ form\:\r\n\ You\ are\ in\ the\ kitchen.\r\n\ Exits\:\ north\ west\r\n\ Item\ \:\ key\r\n\ @return\ A\ description\ of\ the\ room,\ including\ exits\ and\ every\ item\ in\ the\ room.\r\n
+comment7.params=
+comment7.target=java.lang.String\ getItemsInRoom()
+comment7.text=\r\n\ Gets\ the\ description\ of\ all\ items\ inside\ of\ a\ room\r\n
+comment8.params=item
+comment8.target=void\ addItem(Item)
+comment8.text=\r\n\ Adds\ an\ item\ to\ the\ room\r\n
+comment9.params=item
+comment9.target=Item\ checkIfItemIsPresent(java.lang.String)
+comment9.text=\r\n\ Check\ if\ an\ item\ is\ present\ in\ the\ room\ and\ returns\ the\ name\ String\r\n
+numComments=10
